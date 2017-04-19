@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    tools:context="com.example.jc321013.unitconverter.MainActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+
+        android:layout_columnWeight="1"
+
+        android:layout_gravity="center_vertical"
+        android:layout_rowWeight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="end"
+        android:padding="10dp"
+        android:text="Centimeter"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_columnWeight="10"
+        android:layout_rowWeight="1"
+        android:background="@android:color/white"
+        android:gravity="end"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/editText"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_rowWeight="1"
+        android:layout_toStartOf="@+id/editText"
+        android:background="@color/colorPrimary"
+        android:gravity="end"
+        android:padding="10dp"
+        android:text="Meter"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_columnWeight="10"
+        android:layout_rowWeight="1"
+        android:background="@android:color/white"
+        android:gravity="end"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView8"
+
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/editText2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_rowWeight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="end"
+        android:padding="10dp"
+        android:text="Inches"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_columnWeight="10"
+        android:layout_rowWeight="1"
+        android:background="@android:color/white"
+        android:gravity="end"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/editText3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_rowWeight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="end"
+        android:padding="10dp"
+        android:text="Foot"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignParentEnd="true"
+        android:layout_columnWeight="10"
+        android:layout_rowWeight="1"
+        android:background="@android:color/white"
+        android:gravity="end"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_columnWeight="1"
+        android:layout_marginTop="50dp"
+        android:layout_rowWeight="1"
+        android:contextClickable="true"
+        android:text="Submit"
+
+        android:textSize="20sp" />
+
+</GridLayout>
