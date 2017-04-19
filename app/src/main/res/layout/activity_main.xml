@@ -28,8 +28,10 @@
         android:layout_columnWeight="10"
         android:layout_rowWeight="1"
         android:background="@android:color/white"
-        android:gravity="end"
-        android:inputType="textPersonName" />
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -51,8 +53,11 @@
         android:layout_columnWeight="10"
         android:layout_rowWeight="1"
         android:background="@android:color/white"
-        android:gravity="end"
-        android:inputType="textPersonName" />
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView8"
@@ -76,8 +81,11 @@
         android:layout_columnWeight="10"
         android:layout_rowWeight="1"
         android:background="@android:color/white"
-        android:gravity="end"
-        android:inputType="textPersonName" />
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView9"
@@ -101,8 +109,11 @@
         android:layout_columnWeight="10"
         android:layout_rowWeight="1"
         android:background="@android:color/white"
-        android:gravity="end"
-        android:inputType="textPersonName" />
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/button"
