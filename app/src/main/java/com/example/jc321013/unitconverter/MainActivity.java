@@ -11,33 +11,33 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText e1, e2, e3, e4;
-    Button b1;
+    EditText editCentimeters, editMeters, editInches, editFeet;
+    Button button1;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        e1 = (EditText) findViewById(R.id.editText);
-        e2 = (EditText) findViewById(R.id.editText2);
-        e3 = (EditText) findViewById(R.id.editText3);
-        e4 = (EditText) findViewById(R.id.editText4);
-        b1 = (Button) findViewById(R.id.button);
+        editCentimeters = (EditText) findViewById(R.id.editText);
+        editMeters = (EditText) findViewById(R.id.editText2);
+        editInches = (EditText) findViewById(R.id.editText3);
+        editFeet = (EditText) findViewById(R.id.editText4);
+        button1 = (Button) findViewById(R.id.button);
 
-        b1.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener() {
             //            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
 
-                double cm = Double.parseDouble(e1.getText().toString());
+                double cm = Double.parseDouble(editCentimeters.getText().toString());
                 double m = cm / 100;
                 double inch = cm / 2.54;
                 double foot = inch / 12;
 
-                e2.setText("" + m);
-                e3.setText("" + inch);
-                e4.setText("" + foot);
+                editMeters.setText("" + m);
+                editInches.setText("" + inch);
+                editFeet.setText("" + foot);
 
 
             }

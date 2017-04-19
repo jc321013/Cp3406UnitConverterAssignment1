@@ -17,9 +17,10 @@
         android:layout_gravity="center_vertical"
         android:layout_rowWeight="1"
         android:background="@color/colorPrimary"
+        android:elevation="5dp"
         android:gravity="end"
         android:padding="10dp"
-        android:text="Centimeter"
+        android:text="Centimeters to:"
         android:textSize="30sp" />
 
     <EditText
@@ -43,6 +44,7 @@
         android:layout_rowWeight="1"
         android:layout_toStartOf="@+id/editText"
         android:background="@color/colorPrimary"
+        android:elevation="5dp"
         android:gravity="end"
         android:padding="10dp"
         android:text="Meter"
@@ -69,6 +71,7 @@
         android:layout_gravity="center_vertical"
         android:layout_rowWeight="1"
         android:background="@color/colorPrimary"
+        android:elevation="5dp"
         android:gravity="end"
         android:padding="10dp"
         android:text="Inches"
@@ -97,6 +100,7 @@
         android:layout_gravity="center_vertical"
         android:layout_rowWeight="1"
         android:background="@color/colorPrimary"
+        android:elevation="5dp"
         android:gravity="end"
         android:padding="10dp"
         android:text="Foot"
